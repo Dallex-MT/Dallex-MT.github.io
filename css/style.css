@@ -1,0 +1,150 @@
+* {
+    font-family: 'Verdana', sans-serif;
+    font-size: medium;
+  }
+  
+  :root {
+    --bg-color: #2C2C2C;
+    --text-color: #F3F6F5;
+    --weather-color: #3498DB;
+    font-size: 18px;
+  }
+
+  main{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--text-color)
+  }
+  
+  p {
+    margin-bottom: 0.75rem;
+    line-height: 1.2rem;
+  }
+  
+  footer {
+    background-color: var(--bg-color);
+    bottom: 0;
+    border-top: 1px solid grey;
+    width: 100%;
+  }
+  
+  .titulo{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tituloIndex{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-transform: capitalize;
+    font-size: 4cm;
+    margin-bottom: 0.5rem;
+    margin-top: 150px;
+  }
+  
+  
+  .textoIndex{
+    font-family: Rockwell, serif;
+    margin-bottom: 0.5rem;
+  }
+  
+  .parrafo{
+    font-family: sans-serif;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+  }
+  
+  .enlace{
+    text-decoration: none;
+    color: #E5E8E8;
+  }
+  
+  .fondo{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .logo{
+    padding-right: 50px;
+    text-decoration: none;
+  }
+  
+  .weather-card {
+    margin: 20px auto;
+    background: var(--weather-color);
+    color: var(--text-color);
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    width: 350px;
+  }
+  
+  .city {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .message {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .temperature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .temp-img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .temp {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  
+  .weather {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+
+  .footer-fondo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/HTML_&_Bootstrap/img/Casa_del_Arbol.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  
+  .fondoArriba{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/HTML_&_Bootstrap/img/Banios_BG.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  
+  .indexTop-fondo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/HTML_&_Bootstrap/img/Puenting2_Banios.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+
+  .indexMed-fondo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/HTML_&_Bootstrap/img/Rafting2_Banios.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+  }
